@@ -1,9 +1,9 @@
 import Article from "./Article";
 
-function ArticleList({ posts }) {
+function ArticleList({ articles }) {
   return (
     <main>
-      {posts.map((post) => (
+      {articles.map((post) => (
         <Article
           key={post.id}
           title={post.title}
