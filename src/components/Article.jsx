@@ -1,5 +1,5 @@
 function Article({ title, date, preview }) {
-  const displayDate = date || "May 3, 2026";
+  const displayDate = date || "January 1, 1970";
 
   return (
     <article>
