@@ -1,6 +1,6 @@
 import Article from "./Article";
 
-function ArticleList({ articles }) {
+function ArticleList({ articles = [] }) {
   return (
     <main>
       {articles.map((post) => (
